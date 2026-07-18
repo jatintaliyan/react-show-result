@@ -1,5 +1,5 @@
 ._footer {
-    height: 20px;
+    height: 15px;
     background-color: #2b2a25;
     padding: 20px;
     padding-bottom: 30px;
@@ -18,4 +18,5 @@
     text-decoration: underline;
     text-shadow: 0.5px 0.5px #685b5b;
     user-select: none;
+    margin: 0;
 }
