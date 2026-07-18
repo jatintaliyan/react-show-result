@@ -1,9 +1,9 @@
 ._footer {
-    height: 35px;
+    height: 50px;
     background-color: #2b2a25;
     padding: 20px;
     padding-bottom: 30px;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     left: 0;
     right: 0;
