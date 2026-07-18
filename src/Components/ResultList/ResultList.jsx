@@ -34,7 +34,7 @@ const ResultList = () => {
         </div>
 
       </div>
-      <div>
+      <div className={styles.resultArea}>
         {filteredStudents.map((student) => (
           <ResultBox
             key={student.rollNo}
