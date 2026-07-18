@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from 'react'
 import studentData from '../../data/students.json'
 import ResultBox from '../ResultBox/ResultBox'
