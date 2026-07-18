@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./resultbox.module.css";
+import styles from "./ResultBox.module.css";
 import catImage from "../../assets/cat.jpg";
 
 const ResultBox = ({ student }) => {
