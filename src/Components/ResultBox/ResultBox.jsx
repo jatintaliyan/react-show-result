@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./ResultBox.module.css";
 import catImage from "../../assets/cat.jpg";
 
