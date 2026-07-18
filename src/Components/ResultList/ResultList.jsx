@@ -23,7 +23,7 @@ const ResultList = () => {
 
 
   return (
-    <div>
+    <>
       <div className={styles.searchArea}>
         <div className={styles.searchBox}>
           <input 
@@ -34,13 +34,15 @@ const ResultList = () => {
         </div>
 
       </div>
-      {filteredStudents.map((student) => (
-        <ResultBox
-          key={student.rollNo}
-          student={student}
-        />
-      ))}
-    </div>
+      <div>
+        {filteredStudents.map((student) => (
+          <ResultBox
+            key={student.rollNo}
+            student={student}
+          />
+        ))}
+      </div>
+    </>
   )
 }
 
