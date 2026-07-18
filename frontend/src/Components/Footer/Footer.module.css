@@ -1,0 +1,21 @@
+._footer {
+    height: 50px;
+    background-color: #2b2a25;
+    padding: 20px;
+    padding-bottom: 30px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 999;
+}
+._author {
+    color: #d9a78c;
+    font-size: 80%;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 0.5px 0.5px #685b5b;
+    user-select: none;
+}
