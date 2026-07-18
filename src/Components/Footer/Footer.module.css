@@ -5,6 +5,11 @@
     padding-bottom: 30px;
     margin-top: 0;
     margin-bottom: 0;
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 999;
 }
 ._author {
     color: #d9a78c;
