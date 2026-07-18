@@ -1,0 +1,55 @@
+._heading {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  user-select: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #a6a498;
+    text-shadow: 0.8px 0.8px #7b8995;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.unheader {
+    margin-top: 72px;
+    text-align: center;
+    background-color: #d9d7cb;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+._rankbtn{
+    background-color: #7b8995;
+    width: 110px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.09);
+}
+
+.seer {
+    color: #44433f;
+    text-decoration: none;
+}
+
+.seer:hover {
+    color: #161515;
+    text-decoration: none;
+}
